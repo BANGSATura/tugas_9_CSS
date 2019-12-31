@@ -1,0 +1,27 @@
+div.gambar {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+div.pembungkus {
+  background-color: white;
+  width: 800px;
+  z-index: 2;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+div.pembungkus div p {
+  font-size: 13px;
+  font-weight: bold;
+  float: right;
+}
+p,h1 {
+  text-align: right;
+  padding: 0 10px;
+}
